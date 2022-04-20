@@ -6,6 +6,7 @@
 #include <string.h>
 
 #define MAX_LENGTH 6
+#define FILENAME "data.txt"
 
 // Função responsável por realizar o print do menu inicial
 void print_menu()
