@@ -83,7 +83,7 @@ void login()
     {
         fscanf(fp, "%s;,;%s;,;%s;;\n", first_name, last_name, hashed_password);
 
-        printf("Nome: %s \n Sobrenome %s \n Hash %s \n\n", first_name, last_name, hashed_password);
+        printf("Nome: %s \nSobrenome %s \nHash %s\n\n", first_name, last_name, hashed_password);
     }
 
     free(first_name);
